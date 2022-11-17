@@ -21,32 +21,32 @@
 <body>
     <?php 
         $test = explode("/",$_SERVER['PHP_SELF']);
-        if($test[3] == "home.php"){
+        if($test[2] == "home.php"){
             $home = "active";
         }else {
             $home = "";
         }
-        if($test[3] == "add_student.php"){
+        if($test[2] == "add_student.php"){
             $add = "active";
         }else {
             $add = "";
         }
-        if($test[3] == "update_student.php"){
+        if($test[2] == "update_student.php"){
             $update = "active";
         }else {
             $update = "";
         }
-        if($test[3] == "delete_student.php"){
+        if($test[2] == "delete_student.php"){
             $delete = "active";
         }else {
             $delete = "";
         }
-        if($test[3] == "index.php"){
+        if($test[2] == "index.php"){
             $hide = "style='display:none;'";
         }else {
             $hide = "";
         }
-        if($test[3] == "add_user.php"){
+        if($test[2] == "add_user.php"){
             $add_user = "active";
         }else {
             $add_user = "";
